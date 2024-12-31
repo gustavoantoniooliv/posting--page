@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Postagem de blog</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="container">
+        <h1>Postagem de blog</h1>
+        <form id="blogForm">
+            <label for="titleInput">Título:</label>
+            <input type="text" id="titleInput" name="title" required>
+
+            <label for="contentInput">Conteúdo:</label>
+            <textarea id="contentInput" name="content" required></textarea>
+        
+          <button type="submit">Enviar</button>
+        </form>
+        <div id="output">
+            <h2 id="titleRender">O titulo vai estar aq</h2>
+            <p id="contentRender">Texto brabo do Gu</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,66 @@
+/* Estilos gerais */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://wallpapercat.com/w/full/3/a/d/1203553-3840x2023-desktop-hd-gilgamesh-fatezero-background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Container principal */
+#container {
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo branco semitransparente */
+    border: 2px solid white; /* Borda branca */
+    border-radius: 10px; /* Bordas arredondadas (opcional) */
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombras suaves */
+    text-align: center;
+}
+
+/* Formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; /* Espaçamento entre os elementos */
+}
+
+input, textarea {
+    width: 90%;
+    max-width: 500px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Botão */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Output */
+#output {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#output h2, #output p {
+    margin: 10px 0;
+}
